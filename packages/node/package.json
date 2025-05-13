@@ -1,0 +1,28 @@
+{
+	"name": "node",
+	"version": "1.0.0",
+	"description": "",
+	"license": "ISC",
+	"author": "",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"test": "npx jest",
+		"test:watch": "jest --watch",
+		"build": "tsc -p tsconfig.json"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.1",
+		"@types/jest": "^29.5.14",
+		"@types/node": "^22.15.17",
+		"@types/supertest": "^6.0.3",
+		"jest": "^29.7.0",
+		"supertest": "^7.1.1",
+		"ts-jest": "^29.3.2",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"express": "^5.1.0"
+	}
+}

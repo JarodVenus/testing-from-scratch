@@ -1,0 +1,23 @@
+{
+	"name": "test-from-scratch",
+	"private": true,
+	"version": "1.0.0",
+	"description": "",
+	"license": "ISC",
+	"author": "",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"build:node": "npm run build --workspace=packages/node",
+		"start:node": "node packages/node/dist/index.js",
+		"build:react": "npm run build --workspace=react-app",
+		"start:react": "npm start --workspace=react-app",
+		"build:ng": "npm run build --workspace=ng-app",
+		"start:ng": "npm run start --workspace=ng-app"
+	},
+	"workspaces": [
+		"packages/node",
+		"packages/react-app",
+		"packages/ng-app"
+	]
+}
