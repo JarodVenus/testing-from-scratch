@@ -44,5 +44,8 @@
     "@testing-library/user-event": "^14.6.1",
     "jest-environment-jsdom": "^29.7.0",
     "msw": "^2.8.2"
+  },
+  "jest": {
+    "setupFilesAfterEnv": ["./src/setupTests.ts"]
   }
 }
