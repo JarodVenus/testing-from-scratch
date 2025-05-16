@@ -19,5 +19,8 @@
 		"packages/node",
 		"packages/react-app",
 		"packages/ng-app"
-	]
+	],
+	"devDependencies": {
+		"@playwright/test": "^1.52.0"
+	}
 }
